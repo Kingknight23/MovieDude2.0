@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOVIE DUDE</title>
+    <link rel="icon" type="image/png" href="../images/logo.png"/>
+    <link rel="stylesheet" href="../styles/mailling.css" />
+    <link rel="stylesheet" href="../styles/movielanding.css">
+    <script src="formMailinglist.js"></script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Mailing List Signup</h1>
+      <form name="Login" method="POST" data-netlify="true">
+        <p>
+          Get news about the band such as tour dates and special MP3 releases
+          sent to your own in-box.
+        </p>
+        <div class="inputFeilds">
+          <label for="firstlast">Name:</label>
+          <input
+            type="text"
+            name="username"
+            id="firstlast"
+            placeholder="username"
+            list="listName"
+          />
+        </div>
+        <div class="inputFeilds">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="username@email.com"
+          />
+        </div>
+        <div class="inputFeilds">
+          <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="password">
+        </div>
+
+        <input type="submit" value="Login" onclick="saveFormData(event)" />
+      </form>
+    </div>
+  </body>
+</html>
