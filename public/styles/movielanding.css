@@ -27,6 +27,7 @@ p,
 a,
 h1,
 h2 {
+  color: white;
   font-size: larger;
   font-weight: 200;
 }
@@ -36,7 +37,7 @@ a {
   color: aliceblue;
 }
 
-h2,
+h2:hover,
 h1:hover,
 p:hover {
   color: rgb(118, 217, 18);
