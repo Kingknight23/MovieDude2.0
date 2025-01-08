@@ -40,7 +40,6 @@ Follow these steps to set up MovieDude locally:
    - Add the following variables:
      ```env
      TMDB_API_KEY=your_tmdb_api_key
-     MONGO_URI=your_mongodb_connection_string
      PORT=5000
      ```
 
