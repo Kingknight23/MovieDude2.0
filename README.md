@@ -18,8 +18,6 @@ MovieDude is a web application designed to provide users with a seamless experie
 - **Backend**:
   - Node.js
   - Express.js
-- **Database**:
-  - MongoDB
 - **APIs**:
   - The Movie Database (TMDb) API
 
